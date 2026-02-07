@@ -1,70 +1,100 @@
-npx update-browserslist-db@latestnpx update-browserslist-db@latestnpx update-browserslist-db@latest# Getting Started with Create React App
+# EduBridge – Interactive Learning Platform
+Project Description:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+EduBridge is an integrated digital learning platform designed to make education more engaging, interactive, and accessible for students. The platform combines multiple learning tools into a single ecosystem to eliminate the confusion caused by using separate applications for communication, learning materials, assessments, and virtual classes.
 
-## Available Scripts
+EduBridge focuses on enhancing student engagement through real-time interaction, collaborative learning, and centralized educational resources. By merging features similar to Google Meet, Google Classroom, WhatsApp discussions, and interactive quiz tools, it provides a modern and streamlined learning experience.
 
-In the project directory, you can run:
+ Key Features:
+1. Interactive Quizzes & Polls
 
-### `npm start`
+Real-time quizzes and polls for active learning.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Helps reinforce concepts through collaborative participation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Improves student engagement and retention.
 
-### `npm test`
+2. Discussion Forums
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Students can post questions and discuss topics.
 
-### `npm run build`
+Peer-to-peer and teacher-supported learning.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Encourages collaboration beyond classroom hours.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Educational Games
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Interactive learning games for better understanding.
 
-### `npm run eject`
+Makes learning fun and motivating.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Enhances participation and cognitive engagement.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Live Virtual Classes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Real-time audio/video classes using:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+WebRTC
 
-## Learn More
+Socket.io
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Provides a virtual classroom experience similar to online meeting platforms.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Centralized Learning Resources
 
-### Code Splitting
+Assignments, notes, and materials stored in one place.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Structured content collected using web scraping from trusted educational sources.
 
-### Analyzing the Bundle Size
+Saves students time searching across multiple platforms.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ Problem It Solves:
 
-### Making a Progressive Web App
+Students often struggle with scattered educational tools — one app for classes, another for notes, another for discussions. EduBridge solves this by:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Centralizing all learning activities.
 
-### Advanced Configuration
+Improving student engagement.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Simplifying access to educational resources.
 
-### Deployment
+Enhancing collaboration between students and teachers.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Tech Stack:
+Frontend
 
-### `npm run build` fails to minify
+React.js (UI development)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Tailwind CSS / Modern UI frameworks (optional if used)
+
+Backend
+
+Node.js / Express.js (if applicable)
+
+Real-Time Communication
+
+WebRTC (live video/audio classes)
+
+Socket.io (real-time messaging & notifications)
+
+Additional Technologies
+
+Web Scraping for educational resources
+
+Database (MongoDB / MySQL if used)
+
+# Installation & Setup
+Clone Repository
+git clone <repository-url>
+cd edubridge
+
+Install Dependencies
+npm install
+
+Run Application
+npm start
+
+
+Application will run at:
+
+http://localhost:3000
