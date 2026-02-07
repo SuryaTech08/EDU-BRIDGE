@@ -60,14 +60,14 @@ Simplifying access to educational resources.
 
 Enhancing collaboration between students and teachers.
 
-Tech Stack:
+Tech Stack :
 Frontend
 
 React.js (UI development)
 
 Tailwind CSS / Modern UI frameworks (optional if used)
 
-Backend
+Backend :
 
 Node.js / Express.js (if applicable)
 
@@ -83,18 +83,4 @@ Web Scraping for educational resources
 
 Database (MongoDB / MySQL if used)
 
-# Installation & Setup
-Clone Repository
-git clone <repository-url>
-cd edubridge
 
-Install Dependencies
-npm install
-
-Run Application
-npm start
-
-
-Application will run at:
-
-http://localhost:3000
